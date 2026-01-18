@@ -57,6 +57,8 @@ export default async function handler(
     });
   });
 
+  console.log(`Successfully scraped ${countries.length} countries`);
+
   // Return the structured data
   return {
     countries: countries,
