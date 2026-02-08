@@ -9,5 +9,6 @@ export default async function handler(
   page: Page,
   context: BrowserContext
 ) {
+  console.log("hi");
   return {};
 }
