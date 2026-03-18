@@ -1,5 +1,6 @@
 import { BrowserContext, Page } from "playwright";
 
+// Sample handler - define your parameters and implement your scraping logic here
 interface Params {
   // Add your params here
 }
